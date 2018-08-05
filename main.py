@@ -75,7 +75,7 @@ if risp == "y":
     alphas = []
     for i in range(0, len(Y)-1):
         alphas.append(np.arange(1, len(modello.dual_coef_[i])+1, 1))
-    histY(X=alphas, Y=modello.dual_coef_)
+    histY(X=alphas, Y=modello.dual_coef_, xlabel='Coefficiente del suport vector')
     
 risp = input("Proceed with MLP Classifier learning? [y/n]")
 if risp == "y":
