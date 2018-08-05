@@ -1,15 +1,12 @@
 from fileloaders import ImgCSVLoader
 from preprocessing import ImgPreprocessor
 import numpy as np
-import cv2
 import glob
 from sklearn.neural_network import MLPClassifier
 from sklearn.svm import SVC
-from sklearn.model_selection import StratifiedShuffleSplit
 from console import alert
-from ploting import pieY, histY, plotImage, plot_confusion_matrix, plotProbThresh
+from ploting import pieY, histY, plotImage, plotProbThresh
 from classification import ImgClassification
-from sklearn.metrics import classification_report, confusion_matrix
 import pandas as pd
 #from keras.models import Sequential
 #from keras.layers import Dense, Conv2D, MaxPooling2D, Dropout, Flatten

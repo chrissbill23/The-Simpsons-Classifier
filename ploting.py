@@ -1,9 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import itertools
-from sklearn.metrics import recall_score
-from sklearn.metrics import precision_score
-from sklearn.metrics import f1_score
+from sklearn.metrics import recall_score, precision_score, f1_score
 
 def __countValues(y):
     x = {}

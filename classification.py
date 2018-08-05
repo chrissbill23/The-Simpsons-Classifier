@@ -1,8 +1,6 @@
-from sklearn.neural_network import MLPClassifier
 from console import alert, stepM, ShowTimer
-from sklearn import model_selection
-from sklearn.model_selection import cross_val_score, StratifiedShuffleSplit
-from sklearn.metrics import classification_report, confusion_matrix, mean_squared_error
+from sklearn.model_selection import StratifiedShuffleSplit
+from sklearn.metrics import classification_report, confusion_matrix
 import numpy as np
 import pandas as pd
 from ploting import plot_confusion_matrix
